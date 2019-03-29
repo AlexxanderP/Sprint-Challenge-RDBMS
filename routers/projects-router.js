@@ -5,7 +5,7 @@ const knexConfig = {
   client: "sqlite3",
   useNullAsDefault: true,
   connection: {
-    filename: "./data/trackerApp.db3"
+    filename: "./data/projects.sqlite3"
   },
   debug: true
 };
